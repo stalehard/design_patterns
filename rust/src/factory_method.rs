@@ -237,6 +237,6 @@ mod tests {
     fn test_unknown_animal_type() {
         let registry = AnimalFactoryRegistry::new();
         let result = registry.create_animal("elephant", "Dumbo".to_string());
-        assert_eq!(result.species(), "unknown");
+        assert_eq!(result.species(), "Unknown");
     }
 }

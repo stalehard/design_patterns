@@ -1,3 +1,4 @@
+mod abstract_factory;
 mod factory_method;
 
 use factory_method::{AnimalFactory, AnimalFactoryRegistry, BirdFactory, CatFactory, DogFactory};
