@@ -1,6 +1,7 @@
 mod abstract_factory;
 mod builder;
 mod factory_method;
+mod singleton;
 
 use factory_method::{AnimalFactory, AnimalFactoryRegistry, BirdFactory, CatFactory, DogFactory};
 
